@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    background-color: #D5E1EF;
+    width: 1440px;
+    height: 960px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+main {
+    background-color: #fff;
+    width: 320px;
+    height: 499px;
+    padding: 16px 16px 40px 16PX;
+    border-radius: .7rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#QR {
+    width: 288px;
+    height: 288px;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    margin-top: 20px;
+    width: 256px;
+    height: 52px;
+    text-align: center;
+    font-family: "Outfit", serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.imperative {
+    margin-top: 20px;
+    width: 256px;
+    height: 63px;
+    text-align: center;
+    font-family: "Outfit", serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:900px) {
+    body {
+        width: 870px;
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+
+@media (max-width:400px) {
+    body {
+        width: 375px;
+        height: 812px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
